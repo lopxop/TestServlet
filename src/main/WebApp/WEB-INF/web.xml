@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>PlayerServlet</servlet-name>
+        <servlet-class>com.example.servlet.PlayerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PlayerServlet</servlet-name>
+        <url-pattern>/players</url-pattern>
+    </servlet-mapping>
+</web-app>
